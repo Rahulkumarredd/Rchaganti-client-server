@@ -41,7 +41,7 @@ The name of the third party Windows Package manager is Chocolatey.  The download
 
 For Windows place a screenshot of the version command output for: ```choco --version```.
 
-![*chocolatey -version*] (./images/choco -v.png *chocolatey --v*)
+![*choco --v*](./images/choco%20-v.png "choco --v")
 
 ### Commands to run to install all the software
 
@@ -76,6 +76,10 @@ For Windows we are going to install PowerShell Core, also known as PowerShell 7.
 
 Open PowerShell 7 and issue the command: `ssh -V` and take a screenshot of the PowerShell version output as well as the SSH version output.
 
+![*ssh--v*](./images/ssh%20-v.png "ssh--version")
+
+![*Powershell --v*](./images/powershell%20-v.png "powershell 7 --v")
+
 For MacOS, newer versions use the Z shell.  This is due to Apple not using GPLv3+ software, which newer versions of BASH are licensed under.  This should be just fine and not require a new shell install.  If you want to experiment you can also install PowerShell 7 via Brew but it is not required.
 
 Open a terminal and type the commands: `zsh --version` and `ssh -V` and take a screenshot of the output
@@ -87,6 +91,8 @@ A Terminal is a way to run and manage multiple shell together, not unlike a web-
 On Windows, Microsoft provides a [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab "Install Windows Terminal from Microsoft Store")
 
 Open the Windows Terminal and select from the drop down arrow, the ABOUT tab, and take a screenshot of the version output
+
+![*windows terminal--v*](./images/terminal%20-v.png "terminal--v")
 
 On MacOS, there is a terminal called [iterm2](https://iterm2.com/ "MacOS shell terminal")
 
@@ -107,11 +113,15 @@ We will be installing an text editor or and IDE for all of our coding and config
 
 Take a screenshot from the ABOUT tab in your IDE to show the installed version
 
+![*VSCode --v*](./images/vscode%20-v.png "VSCode --version")
+
 ### Install Git Client for Version Control
 
 Version Control is vital to modern software development and we will be using our Package Manger to install the Git Client for our respective operating systems. **Note**, this is different from the GitHub Desktop tool, which we will not be using this semester.
 
 Take a screenshot of the output of the command: ```git --version```
+
+![*git --version*](./images/git%20-v.png "git--v")
 
 #### Configure Git Client
 
@@ -135,6 +145,8 @@ If you do not already have VirtualBox 6.x installed, use your package manager to
 
 Take a screenshot of the VirtualBox > Help > About VirtualBox output or from the Terminal: `vboxmanage --version` (Windows or Intel MacOS)
 
+![*virtualbox --v*](./images/virtualbox%20-v.png "vboxmanage --v")
+
 For those using an M1 Mac we will require a [Pro License from Parallels](https://www.parallels.com/products/desktop/pro/ "Pro License form parallels.com website").
 
 Take a screenshot of Parallels Desktop > About Parallels Desktop or from the terminal : `prlctl --version` (Works on any version of Parallels)
@@ -149,6 +161,8 @@ Using your package manager, install the latest version of [Vagrant](https://vagr
 
 Take a screenshot of the output of the command: ```vagrant --version```
 
+![*vagrant --v*](./images/vagrant%20-v.png "vagrant --version")
+
 ### Install Packer.io
 
 Packer is another automation tool from HashiCorp.  Whereas Vagrant was for running virtual machines, Packer's job is to build virtual machine images from a template language.  This tool allows fast infrastructure deployment, multi-provider portability, improved stability, and greater testability.
@@ -157,6 +171,8 @@ Using a package manager, install the latest version of [Packer](https://packer.i
 
 Take a screenshot of the output of the command: ```packer --version```
 
+![*packer --v*](./images/packer%20-v.png "packer --version")
+
 ### Oh-My-Git Tutorial
 
 Download the proper [Oh My Git! tutorial](https://ohmygit.org/ "webpage for oh my git") the program runs as a self contained executable on your system (Windows Mac or Linux).
@@ -164,6 +180,10 @@ Download the proper [Oh My Git! tutorial](https://ohmygit.org/ "webpage for oh m
 Complete the tutorial and take screenshots of the completed sections (may need to take a few shots as the there are many sections).
 
 This Git tutorial is a good refresher for those who need it and a great introduction for those new to Version Control and want to learn it. You can leave the last section out, **Sandbox**, it is an open area for you to experiment in and no real way to "complete it."
+
+![*Oh my git!!*](./images/Oh%20my%20git.png "oh my git")
+
+![*game-levels*](./images/Level.png "games!")
 
 ## Tooling Assignment Part II
 
