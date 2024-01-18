@@ -1,21 +1,20 @@
 # Rchaganti-client-server
 
-a picture of you
-
-a picture of something that describes you
+![*transformers*](./image.jpg "I like transformers!")
 
 ## Where are you from?
 
-
+India
 
 ## What was your first computing device?
 
+HP Envy x360
 
+## IT Interest
 
-## IT Interests
-
-
+Software Development enchances my skills and what excites me the most is the continuos learning journey it offers.
 
 ## Something Interesting About You
 
+Outside of my professional life, I have a deep passion for cricket.
 
